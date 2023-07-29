@@ -11,7 +11,7 @@ const Header = () => {
       <h2>Logo Here.</h2>
 
       <div>
-        <Link to={"/*"}> Home </Link>
+        <Link to={"/"}> Home </Link>
         <Link to={"/cart"}>
           <FiShoppingBag />
           <p> { cartItems.length } </p>
